@@ -79,20 +79,6 @@ button[type=submit] {
   background-color: rgba(158, 158, 158,0.7);
 }
 
-/* .btn-fill-dark:link,
-.btn-fill-dark:visited {
-  background-color: rgba(0, 0, 0, 0.2);
-  border: 1px solid rgb(158, 158, 158);
-}
-
-.btn-fill-dark:hover,
-.btn-fill-dark:active {
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgb(158, 158, 158);
-  color: #555;
-} */
-
-
 .btn-imp:link,
 .btn-imp:visited,
 button[type=submit] {
@@ -478,14 +464,18 @@ footer {
 
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 789px) {
   body {
     font-size: 16px;
   }
+
   section {
     padding: 30px 0;
   }
 
+  .col {
+    width: 100%;
+  }
   .contact {
     width: 90%;
   }
