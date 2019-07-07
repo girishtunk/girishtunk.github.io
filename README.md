@@ -1,2 +1,2 @@
 # girishtunk.github.io
-Website 2
+Personal website
